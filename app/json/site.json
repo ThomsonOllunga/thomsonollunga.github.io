@@ -82,8 +82,8 @@
 				"image":"thomsonollungallp-logo.png",
                                 "phone_number":"212-335-0751",
                                 "email_address":"admin@thomsonollunga.com",
-				"address_city": "747 Third Avenue, 2nd Floor, New York",
-			        "address_state": "NY, 10017"
+				"address_city": "747 Third Avenue, 2nd Floor",
+			        "address_state": "New York, NY, 10017"
                         }
 		}]
 		
