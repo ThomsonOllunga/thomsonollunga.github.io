@@ -1,0 +1,265 @@
+.picture-secondary{
+	background-image: url("./../images/new-york-691072_1920_cropped.png");
+	width: auto;	
+}
+.thomson-ollunga-logo {
+	max-height: 14vh;
+	width: auto;
+}
+.name_section{
+	max-width: 100%;
+}
+.phone_number_section{
+	max-width: 100%;
+}
+.email_address_section{
+	max-width: 100%;
+}
+.search_box_div{
+	padding: 12vh 0 12vh 0;
+}
+.contacts_cards > h1, div{
+	color: grey;
+}
+/*
+ * .contact-card {
+	border-style: solid;
+	margin: 1em 1em 1em 1em;
+}
+*/
+	/*
+.cc-noborder {
+	border-style: none;
+}
+*/
+	/*
+@media screen and (max-device-width: 1200px){
+	img.picture {
+                height: 10vh;
+                width: auto;
+		margin-top: 2.25em;
+        }
+        img.picture.general-inquiries {
+                max-height: 3vh;
+        }
+}
+@media screen
+	and (min-device-width:1600px){
+	img.picture {
+                max-height: 10vh;
+                width: auto;
+		margin-top: 2.25em;
+        }
+        img.picture.general-inquiries {
+                max-height: 6vh;
+        }
+}
+*/
+/* ----------- Non-Retina Screens ----------- */
+/*
+ * @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+	img.picture {
+                max-height: 15vh;
+                width: auto;
+		margin-top: 2.25em;
+	}
+	img.picture.general-inquiries {
+        	max-height: 6vh;
+	}
+	}
+ */
+/* ----------- Retina Screens ----------- */
+/*
+ * @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+	img.picture {
+                max-height: 20vh;
+                width: auto;
+		margin-top: 2.25em;
+        }
+        img.picture.general-inquiries { 
+                max-height: 12vh;
+        }
+}
+*/
+.specialty {
+	padding: 2em;
+}
+.contact_details_section {
+	padding: 0.5em;
+}
+.brand {
+    position: relative;
+    left: 50%;
+    display: block;
+    transform: translateX(-50%);
+}
+.contact {
+	margin-top: 2em;
+	margin-bottom: 1.5em;
+}
+.about-section {
+	padding: 40vh 15px 10vh 15px;
+	margin-right: auto;
+	margin-left: 0px;
+	margin-bottom: 10vh;
+	color: white;
+}
+.about-section > h1 {
+	padding: 10vh 15px 10vh 15px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.about {
+	/*background-image:url("../images/new-york-city-336475_1920.jpg");*/
+	/*background-image:url("../images/manhattan-336708_1920.jpg");*/
+	/*background-image:url("../images/manhattan-407703_1920.jpg");*/
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.main-class {
+	background-image:url("../images/new-york-city-336475_1920.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* stylelint-disable selector-list-comma-newline-after */
+.content-with-padding {
+  padding-bottom: 2em;
+  padding-left:2em;
+  padding-right:2em;
+  padding-top:2em;
+}
+.heading-logo {
+  height: 7vh;
+  margin-top: 2vh;
+}
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+/*
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+*/
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+/*
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+*/
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative; 
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/*
+ * Blog name and description
+ */
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}

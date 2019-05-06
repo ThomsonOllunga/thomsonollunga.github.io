@@ -1,0 +1,23 @@
+body {
+  padding-top: 12vh;
+  color: white;
+}
+.arial-font h1,span,h3,a {
+  font-family: Arial;
+  font-weight: normal;
+  font-style: normal;
+}
+.default-background {
+	background-image:url("../images/new-york-city-336475_1920.jpg");
+}
+.background-1{
+        background-image:url("../images/manhattan-336708_1920.jpg");
+}
+.background-2{
+        background-image:url("../images/manhattan-407703_1920.jpg");
+}
+.navbar {
+	background-color: white;
+	height: 12vh;
+	min-height:12vh;
+}

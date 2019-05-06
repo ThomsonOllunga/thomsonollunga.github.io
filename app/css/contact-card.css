@@ -1,0 +1,23 @@
+.contact-card{
+	border-style: none;
+	border-width: thin;
+	border-color: black;
+	margin: 2em 1em 2em 1em;
+}
+.cc-noborder {
+        border-style: none;
+}
+.h1-center-aligned {
+	text-align: center;
+}
+h3 {
+	text-align: center;	
+}
+.span-center-aligned {
+	text-align: center;
+	color:#8b8b8b;
+	font-size:1.5em;
+}
+.span-center-aligned > a {
+	color: #8b8b8b;
+}

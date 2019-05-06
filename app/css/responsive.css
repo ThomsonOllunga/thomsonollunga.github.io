@@ -1,0 +1,73 @@
+@media screen and (max-device-width: 1024px){
+	.about-section > h1 {
+		margin-top:5vh;
+		padding-bottom: 2vh;
+	}
+	.thomson-ollunga-logo {
+                max-height:7vh;
+        }
+        img.picture {
+                height: 10vh;
+                width: auto;
+                margin-top: 2.25em;
+        }
+        img.picture.general-inquiries {
+                max-height: 3vh;
+        }
+
+}
+@media screen and (min-device-width:1024px )
+	and (max-device-width: 1200px){
+	.thomson-ollunga-logo {
+		max-height:8vh;
+	}
+	img.picture {
+                height: 10vh;
+                width: auto;
+                margin-top: 2.25em;
+        }
+        img.picture.general-inquiries {
+                max-height: 3vh;
+        }
+}
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+        img.picture {
+                max-height: 15vh;
+                width: auto;
+                margin-top: 2.25em;
+        }
+        img.picture.general-inquiries {
+                max-height: 6vh;
+        }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+        img.picture {
+                max-height: 20vh;
+                width: auto;
+                margin-top: 2.25em;
+        }
+        img.picture.general-inquiries {
+                max-height: 12vh;
+        }
+}
+@media screen
+        and (min-device-width:1600px){
+        img.picture {
+                max-height: 10vh;
+                width: auto;
+                margin-top: 2.25em;
+        }
+        img.picture.general-inquiries {
+                max-height: 6vh;
+        }
+}

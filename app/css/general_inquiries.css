@@ -1,0 +1,11 @@
+.address_section a {
+	font-size:2em;
+}
+.span-center-aligned.address {
+	color: white;
+	font-size: 2em;
+}
+.address_section a:not([href]):not([tabindex]) {
+    color: white;
+    font-size:em;
+}

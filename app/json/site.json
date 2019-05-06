@@ -1,0 +1,95 @@
+{
+  "site-title":"TO LLP",
+  "site-logo":"thomsonollungallp-logo.png",
+  "navbar-groups":
+    [
+    ],
+  "content-sections":
+  [
+    {
+      "section":"about",
+      "section-details":
+        [
+          {
+            "section-number":0,
+            "heading":"",
+            "content":[{
+                "item-title":"",
+                "item-content":"Thomson Ollunga LLP is a full service law firm based in New York City. Providing clients with a wide variety of legal counsel, our lawyers are competent in multiple jurisdictions and multiple areas of law. Thomson Ollunga prides itself on having a diverse practice. Representing entrepreneurs to multinational corporations, the firm’s practice includes business & corporate services, music & entertainment law, intellectual property, civil litigation and much more. "
+              }]
+          }
+        ]
+    },
+    {
+	"section":"specialties",
+	"section-details":
+		{"documents":
+			[
+			{
+				"id":1,
+				"specialties":"",
+				"contact_details":{
+					"name": "Kevin Thomson",
+					"position":"Partner",
+					"image":"adult-beautiful-canvas-1300527.jpg",
+					"phone_number":"212-335-0751 x 501",
+					"email_address":"kevin@thomsonollunga.com"
+				}
+			},
+			{
+				"id":2,
+				"specialties":"",
+                	        "contact_details":{
+                       		         "name": "Samuel Ollunga",
+					 "position":"Partner",
+					 "image":"adult-beautiful-canvas-1300527.jpg",
+                       		         "phone_number":"212-335-0751 x 503",
+                                	 "email_address":"sam@thomsonollunga.com"
+                        	}
+			},
+			{
+				"id":3,
+				"specialties": "",
+                        	"contact_details":{
+                                	"name": "Alwyn Phillips",
+					"position":"Senior Associate",
+					"image":"adult-beautiful-canvas-1300527.jpg",
+                                	"phone_number":"212-335-0751 x 504",
+                                	"email_address":"alwyn@thomsonollunga.com"
+                        	}
+			},
+			{
+				"id":4,
+				"specialties":"",
+                        	"contact_details":{
+                        	        "name": "Juliet Gobler",
+					"position":"Senior Associate",
+					"image":"attractive-beautiful-beautiful-eyes-1405982.jpg",
+                               		"phone_number":"212-335-0751 x 505",
+                                	"email_address": "juliet@thomsonollunga.com"
+                        	}
+			}]
+		}
+    },
+    {
+    "section":"general_inquiries",
+    "section-details":{
+		"documents":[{
+			"id":5,
+			"specialties":"General Inquiries",
+                        "contact_details":{
+                                "name": "General Inquiries",
+				"image":"thomsonollungallp-logo.png",
+                                "phone_number":"212-335-0751",
+                                "email_address":"admin@thomsonollunga.com",
+				"address_city": "747 Third Avenue, 2nd Floor, New York",
+			        "address_state": "NY, 10017"
+                        }
+		}]
+		
+	}
+    }
+    ]
+}
+
+
