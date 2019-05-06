@@ -31,7 +31,8 @@ function set_about(data){
 			$(body).text(item["item-content"])
 		}
 	});
-	$(".about").width($(window).width()).height($(window).height());
+	$(".about").css("min-height",$(window).height());
+	$(".about").width($(window).width());
 }
 function get_section(data, section_name){
 	var content_sections = data["content-sections"];
