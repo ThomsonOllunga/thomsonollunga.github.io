@@ -170,4 +170,12 @@ var search_index = elasticlunr(function () {
 $(document).ready(function(){
   get_json();
 });
-window.onresize = function(){ location.reload(); }
+window.onorientationchange = function(){
+	var orientation = window.orientation;
+	switch(orientation) {
+		case 0:
+		case 90:
+		case -90: window.location.reload();	
+		break;
+	}
+}
