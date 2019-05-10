@@ -73,7 +73,11 @@ function set_picture_and_general_contact(data){
 		});
 
 	});
-	$(".picture-secondary").height($(window).height() - $(".navbar").height() - ($(".blog-footer").height()));
+	if ($(window).width() >= 1024){
+		$(".picture-secondary").height($(window).height() - $(".navbar").height() - ($(".blog-footer").height()*2.5));
+	}else{
+		$(".picture-secondary").height($(window).height() - $(".navbar").height() - ($(".blog-footer").height()));
+	}
 }
 function set_contact(data){
 	var section_name = "specialties";
