@@ -76,7 +76,7 @@ function set_picture_and_general_contact(data){
 	if ($(window).width() >= 1024){
 		$(".picture-secondary").height($(window).height() - $(".navbar").height() - ($(".blog-footer").height()*2.5));
 	}else{
-		$(".picture-secondary").height($(window).height() - $(".navbar").height() - ($(".blog-footer").height()));
+		$(".picture-secondary").height($(window).height() - $(".navbar").height() - ($(".blog-footer").height()*2.25));
 	}
 }
 function set_contact(data){
