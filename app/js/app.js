@@ -73,9 +73,9 @@ function set_picture_and_general_contact(data){
 		});
 
 	});
-	if ($(window).width() >= 1440){
+	if ($(window).width() >= 1280){
 		$(".picture-secondary").height($(window).height() - $(".navbar").height() - ($(".blog-footer").height()*2.25));
-	}else if ($(window).width() > 1024 && $(window).width() < 1440){
+	}else if ($(window).width() > 1024 && $(window).width() < 1280){
 		$(".picture-secondary").height($(window).height() - $(".navbar").height() - ($(".blog-footer").height()*2.5));
 	}else{
 		$(".picture-secondary").height($(window).height() - $(".navbar").height() - ($(".blog-footer").height()*1.75));
