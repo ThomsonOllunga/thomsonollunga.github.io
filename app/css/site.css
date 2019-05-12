@@ -114,6 +114,7 @@
 .about-section > h1 {
 	padding: 10vh 15px 10vh 15px;
 	background-color: rgba(0, 0, 0, 0.6);
+    	text-align: justify;
 }
 .about {
 	/*background-image:url("../images/new-york-city-336475_1920.jpg");*/
