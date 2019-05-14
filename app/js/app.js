@@ -140,7 +140,7 @@ function set_search_data(data){
 	});
 }
 function set_title(data){
-  $("site-title").text(data["site-title"]);
+	$(document).prop('title', data["site-title"]);
 }
 function set_navs(data){
  $.each(data["content-sections"], function(key, value){
